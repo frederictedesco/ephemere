@@ -31,8 +31,6 @@ var ROBINHOOK = ROBINHOOK || (function(){
           for (var attrname in _robinhookLayer) { dataRobinhook[attrname] = _robinhookLayer[attrname]; }
           for (var attrname in dataObject) { dataRobinhook[attrname] = dataObject[attrname]; }
           xmlDoc = new XMLHttpRequest();
-          console.log("Push");
-          console.log(JSON.stringify(dataRobinhook));
           xmlDoc.open('POST',_robinhookUrl,true);
           xmlDoc.setRequestHeader("Content-type", "application/json");
           xmlDoc.send(JSON.stringify(dataRobinhook));
