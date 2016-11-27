@@ -31,6 +31,10 @@
    
     <script src="./files/js/abaaso.min.js"></script>
     <script src="./files/js/contact.js"></script>
+    <script type="text/javascript" src="./files/js/robinhook_web_analytics.js"></script>
+    <script type="text/javascript">
+		ROBINHOOK.init();
+	</script>
 
 
  
@@ -1005,22 +1009,17 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
             <h3 class="grid-100">Laissez nous un message</h3>
             
             <!-- contact form -->
-            <form  class="contact-form" action="flask" method="get">
-            
+            <form  class="contact-form">
             	<ul class="grid-50">
-                
                 	<li><input id="name" class="name" type="text" name="name" placeholder="Name:"></li>
                     <li><input id="email" class="email" type="email" name="email" placeholder="E-Mail:"></li>
                     <li><input id="phone" class="phone" type="text" name="phone" placeholder="Phone:"></li>
-                    
             	</ul>
-                
                 <ul class="grid-50">
                     <li><textarea id="message" class="message" name="message" placeholder="Message:"></textarea></li>
                 </ul>
-                
                 <div class="grid-100">    
-                    <input  class="send-btn" type="submit"  value="Submit">
+                    <input  class="send-btn" type="button"  onclick="postContact()" value="Submit">
                     <div class="success-message">Vos données ont été sauvegardées!</div>
                     <div class="alert-message"></div>
                     <div class="error-message">Email could not be delivered. Please try again later!</div>
