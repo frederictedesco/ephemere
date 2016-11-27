@@ -1,0 +1,718 @@
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:14:59 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e30d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e30d60 pid: 14905 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14905, cores: 1)
+[pid: 14905|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:15:41 2015] GET /flask/ => generated 291 bytes in 909 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 14905|app: 0|req: 2/2] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:15:43 2015] GET /flask/ => generated 291 bytes in 1144 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:18:01 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x955d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x955d60 pid: 14978 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14978, cores: 1)
+[pid: 14978|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:18:14 2015] GET /flask/ => generated 6 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:18:43 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26c7d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x26c7d60 pid: 14998 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14998, cores: 1)
+[pid: 14998|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:18:56 2015] GET /flask/ => generated 6 bytes in 173 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:20:50 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13cfd60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x13cfd60 pid: 15042 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15042, cores: 1)
+[pid: 15042|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:21:06 2015] GET /flask/ => generated 6 bytes in 434 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+Wed Nov 25 22:21:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /flask/ (ip 62.197.71.212) !!!
+Wed Nov 25 22:21:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /flask/ (62.197.71.212)
+IOError: write error
+[pid: 15042|app: 0|req: 2/2] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:21:07 2015] GET /flask/ => generated 0 bytes in 438 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Nov 25 22:21:08 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /flask/ (ip 62.197.71.212) !!!
+Wed Nov 25 22:21:08 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /flask/ (62.197.71.212)
+IOError: write error
+[pid: 15042|app: 0|req: 3/3] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:21:07 2015] GET /flask/ => generated 0 bytes in 762 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Nov 25 22:21:09 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /flask/ (ip 62.197.71.212) !!!
+Wed Nov 25 22:21:09 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /flask/ (62.197.71.212)
+IOError: write error
+[pid: 15042|app: 0|req: 4/4] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:21:08 2015] GET /flask/ => generated 0 bytes in 561 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 15042|app: 0|req: 5/5] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:21:09 2015] GET /flask/ => generated 6 bytes in 460 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:29:17 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1681d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/usr/share/nginx/www/ephemere/mailsender/wsgi.py", line 1, in <module>
+    from mail import app
+  File "./mail.py", line 5, in <module>
+    import html2text
+ImportError: No module named html2text
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15195, cores: 1)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:30:53 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x252ad60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x252ad60 pid: 15205 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15205, cores: 1)
+[pid: 15205|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:31:06 2015] GET /flask/ => generated 291 bytes in 789 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:36:34 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fd4d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fd4d60 pid: 15227 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15227, cores: 1)
+[pid: 15227|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:36:44 2015] GET /flask/ => generated 291 bytes in 480 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 15227|app: 0|req: 2/2] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:36:49 2015] GET /flask/ => generated 291 bytes in 463 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 15227|app: 0|req: 3/3] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:37:47 2015] GET /flask/ => generated 291 bytes in 476 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:40:02 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc1fd60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xc1fd60 pid: 15257 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15257, cores: 1)
+[pid: 15257|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:40:17 2015] GET /flask/ => generated 291 bytes in 484 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 15257|app: 0|req: 2/2] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:40:18 2015] GET /flask/ => generated 291 bytes in 464 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 22:41:28 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc09d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc09d60 pid: 15267 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15267, cores: 1)
+[pid: 15267|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:41:40 2015] GET /flask/ => generated 6 bytes in 501 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 15267|app: 0|req: 2/2] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 22:58:35 2015] GET /flask/ => generated 6 bytes in 454 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 15267|app: 0|req: 3/3] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 23:05:35 2015] GET /flask/ => generated 6 bytes in 508 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 23:11:20 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x114fd60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x114fd60 pid: 15411 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15411, cores: 1)
+[pid: 15411|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 836 bytes} [Wed Nov 25 23:11:46 2015] GET /flask/ => generated 6 bytes in 1094 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 23:17:20 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b12d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b12d60 pid: 15432 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15432, cores: 1)
+[pid: 15432|app: 0|req: 1/1] 62.197.71.212 () {52 vars in 1195 bytes} [Wed Nov 25 23:22:15 2015] POST /flask/ => generated 178 bytes in 13 msecs (HTTP/1.1 405) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 15432|app: 0|req: 2/2] 62.197.71.212 () {52 vars in 1195 bytes} [Wed Nov 25 23:23:18 2015] POST /flask/ => generated 178 bytes in 0 msecs (HTTP/1.1 405) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 15432|app: 0|req: 3/3] 62.197.71.212 () {52 vars in 1195 bytes} [Wed Nov 25 23:23:59 2015] POST /flask/ => generated 178 bytes in 1 msecs (HTTP/1.1 405) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 15432|app: 0|req: 4/4] 62.197.71.212 () {46 vars in 889 bytes} [Wed Nov 25 23:27:47 2015] GET /flask/ => generated 6 bytes in 952 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 23:30:14 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2638d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2638d60 pid: 15552 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15552, cores: 1)
+[pid: 15552|app: 0|req: 1/1] 62.197.71.212 () {46 vars in 897 bytes} [Wed Nov 25 23:30:47 2015] GET /flask/ => generated 291 bytes in 918 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 23:34:36 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa4cd60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa4cd60 pid: 15565 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15565, cores: 1)
+[pid: 15565|app: 0|req: 1/1] 62.197.71.212 () {46 vars in 897 bytes} [Wed Nov 25 23:35:31 2015] GET /flask/ => generated 281 bytes in 997 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+[pid: 15565|app: 0|req: 2/2] 62.197.71.212 () {46 vars in 897 bytes} [Wed Nov 25 23:36:50 2015] GET /flask/ => generated 281 bytes in 1139 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Nov 25 23:47:28 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12d1d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "/usr/share/nginx/www/ephemere/mailsender/wsgi.py", line 1, in <module>
+    from mail import app
+  File "./mail.py", line 27
+    <li><input id="name" class="name" type="text" name="name" placeholder="Name:"></li>
+    ^
+IndentationError: unexpected indent
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15732, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15732|app: -1|req: -1/1] 62.197.71.212 () {46 vars in 897 bytes} [Wed Nov 25 23:48:40 2015] GET /flask/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Gracefully killing worker 1 (pid: 15732)...
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:23:07 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x85fd60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x85fd60 pid: 4981 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4981, cores: 1)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:24:15 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xec4d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xec4d60 pid: 5111 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5111, cores: 1)
+ImmutableMultiDict([('phone', u'2343564757898'), ('message', u'kpsfjzor erojf erojhfg erijh ou\xe9"\xe0\xe7e"(\xe0\xa7\'! "\xe0\xe7\xe7\'(t '), ('name', u'jferijo \xe9\xe0\xe7 jfrofhjeor'), ('email', u'kezjferho@fjehiot.be')])
+[pid: 5111|app: 0|req: 1/1] 62.197.71.212 () {42 vars in 1175 bytes} [Mon Dec  7 22:24:24 2015] GET /flask/?name=jferijo+%C3%A9%C3%A0%C3%A7+jfrofhjeor&email=kezjferho%40fjehiot.be&phone=2343564757898&message=kpsfjzor+erojf+erojhfg+erijh+ou%C3%A9%22%C3%A0%C3%A7e%22%28%C3%A0%C2%A7%27%21+%22%C3%A0%C3%A7%C3%A7%27%28t+ => generated 291 bytes in 450 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'2343564757898'), ('message', u'fjhzrfh zerf zerifhzerif zeriuf '), ('name', u'fheiugherighu'), ('email', u'kezjferho@fjehiot.be')])
+[pid: 5111|app: 0|req: 2/2] 62.197.71.212 () {42 vars in 977 bytes} [Mon Dec  7 22:25:01 2015] GET /flask/?name=fheiugherighu&email=kezjferho%40fjehiot.be&phone=2343564757898&message=fjhzrfh+zerf+zerifhzerif+zeriuf+ => generated 281 bytes in 1324 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:27:51 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7d9d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7d9d60 pid: 5214 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5214, cores: 1)
+ImmutableMultiDict([('phone', u'1223345677'), ('message', u'opksrfjierf gej "rofj eroihf eroh \xe9\xe7\xe8\xe0 \xe0 '), ('name', u'zefijzr feroeioruf zjoir fj'), ('email', u'zjiferoiferhuo@ijdzrouh.be')])
+[pid: 5214|app: 0|req: 1/1] 62.197.71.212 () {42 vars in 1091 bytes} [Mon Dec  7 22:28:14 2015] GET /flask/?name=zefijzr+feroeioruf+zjoir+fj&email=zjiferoiferhuo%40ijdzrouh.be&phone=1223345677&message=opksrfjierf+gej+%22rofj+eroihf+eroh+%C3%A9%C3%A7%C3%A8%C3%A0+%C3%A0+ => generated 291 bytes in 648 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:29:43 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ed7d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ed7d60 pid: 5304 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5304, cores: 1)
+ImmutableMultiDict([('phone', u'1223345677'), ('message', u'opksrfjierf gej "rofj eroihf eroh \xe9\xe7\xe8\xe0 \xe0 '), ('name', u'zefijzr feroeioruf zjoir fj'), ('email', u'zjiferoiferhuo@ijdzrouh.be')])
+[pid: 5304|app: 0|req: 1/1] 62.197.71.212 () {42 vars in 1091 bytes} [Mon Dec  7 22:29:54 2015] GET /flask/?name=zefijzr+feroeioruf+zjoir+fj&email=zjiferoiferhuo%40ijdzrouh.be&phone=1223345677&message=opksrfjierf+gej+%22rofj+eroihf+eroh+%C3%A9%C3%A7%C3%A8%C3%A0+%C3%A0+ => generated 291 bytes in 457 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:37:21 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1822d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ * Restarting with stat
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:38:45 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1625d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1625d60 pid: 5473 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5473, cores: 1)
+ImmutableMultiDict([('phone', u'2345678'), ('message', u'ajedjkzoj zofj zof zofj\xe9\xe7\xe0\xf9'), ('name', u'aiedjizpe zij'), ('email', u'jcrezifjk@jdizrof.be')])
+[pid: 5473|app: 0|req: 1/1] 62.197.71.212 () {48 vars in 1154 bytes} [Mon Dec  7 22:38:54 2015] GET /flask/?name=aiedjizpe+zij&email=jcrezifjk%40jdizrof.be&phone=2345678&message=ajedjkzoj+zofj+zof+zofj%C3%A9%C3%A7%C3%A0%C3%B9 => generated 281 bytes in 885 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:40:00 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13c8d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x13c8d60 pid: 5510 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5510, cores: 1)
+ImmutableMultiDict([('phone', u'123456678'), ('message', u'Test avec des accents \xe9\xe8\xe0\xe7\xf9$'), ('name', u'Test Fred'), ('email', u'fred@fred.com')])
+[pid: 5510|app: 0|req: 1/1] 62.197.71.212 () {48 vars in 1152 bytes} [Mon Dec  7 22:40:48 2015] GET /flask/?name=Test+Fred&email=fred%40fred.com&phone=123456678&message=Test+avec+des+accents+%C3%A9%C3%A8%C3%A0%C3%A7%C3%B9%24 => generated 291 bytes in 493 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec  7 22:46:49 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22a6d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22a6d60 pid: 5578 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5578, cores: 1)
+ImmutableMultiDict([('phone', u'123456678'), ('message', u'Test du site avec des accents \xe9\xe8\xe0\xe7\xf9$'), ('name', u'Test Fred'), ('email', u'fred@fred.com')])
+[pid: 5578|app: 0|req: 1/1] 62.197.71.212 () {48 vars in 1168 bytes} [Mon Dec  7 22:47:14 2015] GET /flask/?name=Test+Fred&email=fred%40fred.com&phone=123456678&message=Test+du+site+avec+des+accents+%C3%A9%C3%A8%C3%A0%C3%A7%C3%B9%24 => generated 281 bytes in 893 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u''), ('message', u'bghjregreghubgjlzer'), ('name', u'jfkehfkjqgsk'), ('email', u'gfdjhfghjs@jkfld.be')])
+[pid: 5578|app: 0|req: 2/2] 62.197.71.212 () {42 vars in 927 bytes} [Tue Dec  8 08:41:37 2015] GET /flask/?name=jfkehfkjqgsk&email=gfdjhfghjs%40jkfld.be&phone=&message=bghjregreghubgjlzer => generated 281 bytes in 1353 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Dec 14 23:07:21 2015] ***
+compiled with version: 4.7.2 on 25 November 2015 21:42:00
+os: Linux-4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015
+nodename: carine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /usr/share/nginx/www/ephemere/mailsender
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7949
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /usr/share/nginx/www/ephemere/mailsender/wsgi.socket fd 3
+Python version: 2.7.3 (default, Mar 13 2014, 11:26:58)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1010d50
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1010d50 pid: 5287 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5287, cores: 1)
+ImmutableMultiDict([('phone', u''), ('message', u'df,o eijrferof ehro eofher\xa0'), ('name', u'zkferijp'), ('email', u'frederic.tedesco@49h.eu')])
+[pid: 5287|app: 0|req: 1/1] 62.197.71.212 () {44 vars in 1057 bytes} [Mon Dec 14 23:08:30 2015] GET /flask/?name=zkferijp&email=frederic.tedesco%4049h.eu&phone=&message=df%2Co+eijrferof+ehro+eofher%C2%A0 => generated 281 bytes in 880 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'0496/ 87 85 95'), ('message', u"Bonjour je souhaite savoir quelle journ\xe9e madame Caroline Joris sera telle pr\xe9sente merci d'avance et bonne No\xebl et bonne ann\xe9e et beaucoup de succ\xe8s.\r\n\r\nLinda"), ('name', u'LINDA N\xe9n\xe9ne'), ('email', u'nenene33833@gmail.com')])
+[pid: 5287|app: 0|req: 2/2] 37.62.157.197 () {42 vars in 1408 bytes} [Thu Dec 17 16:57:27 2015] GET /flask/?name=LINDA+N%C3%A9n%C3%A9ne&email=nenene33833%40gmail.com&phone=0496%2F+87+85+95&message=Bonjour+je+souhaite+savoir+quelle+journ%C3%A9e+madame+Caroline+Joris+sera+telle+pr%C3%A9sente+merci+d%27avance+et+bonne+No%C3%ABl+et+bonne+ann%C3%A9e+et+beaucoup+de+succ%C3%A8s.%0D%0A%0D%0ALinda => generated 281 bytes in 1146 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'086 38 85 31'), ('message', u'quelles sont les conditions pour exposer dans votre galerie ? merci pour votre compr\xe9hension et votre r\xe9ponse, bien vous   gis\xe8le'), ('name', u'gerard  gis\xe8le'), ('email', u'gslgerard@gmail.com')])
+[pid: 5287|app: 0|req: 3/3] 81.247.90.172 () {42 vars in 1215 bytes} [Mon Dec 21 21:53:16 2015] GET /flask/?name=gerard++gis%C3%A8le&email=gslgerard%40gmail.com&phone=086+38+85+31&message=quelles+sont+les+conditions+pour+exposer+dans+votre+galerie+%3F+merci+pour+votre+compr%C3%A9hension+et+votre+r%C3%A9ponse%2C+bien+vous+++gis%C3%A8le => generated 281 bytes in 1133 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u''), ('message', u''), ('name', u''), ('email', u'')])
+[pid: 5287|app: 0|req: 4/4] 212.52.130.180 () {42 vars in 815 bytes} [Tue Jan 26 11:29:32 2016] GET /flask/?name=&email=&phone=&message= => generated 281 bytes in 1217 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'39622991580'), ('message', u'a3mHZ7 http://www.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com'), ('name', u'Mark'), ('email', u'')])
+[pid: 5287|app: 0|req: 5/5] 188.143.232.10 () {36 vars in 794 bytes} [Sat Jan 30 11:46:50 2016] GET /flask/?name=Mark&email=&phone=39622991580&message=a3mHZ7+http%3A%2F%2Fwww.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com => generated 281 bytes in 1337 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'77254869207'), ('message', u'9vDdOY http://www.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com'), ('name', u'Mark'), ('email', u'')])
+[pid: 5287|app: 0|req: 6/6] 188.143.232.24 () {36 vars in 794 bytes} [Tue Feb  2 08:40:40 2016] GET /flask/?name=Mark&email=&phone=77254869207&message=9vDdOY+http%3A%2F%2Fwww.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com => generated 281 bytes in 1177 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'68458008416'), ('message', u'n3zNu3 http://www.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com'), ('name', u'Mark'), ('email', u'')])
+[pid: 5287|app: 0|req: 7/7] 188.143.232.24 () {36 vars in 794 bytes} [Tue Feb  2 17:54:27 2016] GET /flask/?name=Mark&email=&phone=68458008416&message=n3zNu3+http%3A%2F%2Fwww.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com => generated 281 bytes in 1131 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'17253431635'), ('message', u'kHPdbc http://www.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com'), ('name', u'Mark'), ('email', u'')])
+[pid: 5287|app: 0|req: 8/8] 188.143.232.16 () {36 vars in 794 bytes} [Wed Feb  3 10:07:12 2016] GET /flask/?name=Mark&email=&phone=17253431635&message=kHPdbc+http%3A%2F%2Fwww.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com => generated 281 bytes in 966 msecs (HTTP/1.1 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'123456'), ('message', u'Jobssat.com is a free job search machine focused on Belgium job market. We are searching and collecting newest vacancies in one place. \r\n \r\nHere are some hot offers for you. It is free and no registration is needed. \r\n \r\n<a href=http://jobssat.com/be/Internship-Digital-Operations-Brussels-Nespresso.html>Internship Digital Operations, Full Time</a>\r\n<a href=http://jobssat.com/be/Business-Intelligence-ETL-Developer-Brussels-EUROCLEAR.html>Business Intelligence ETL Developer, Full Time</a>\r\n<a href=http://jobssat.com/be/Data-Scientist-Brussels-EUROCLEAR.html>Data Scientist, Full Time</a>\r\n \r\nNot enough? Then just see our newest jobs collection. Here are dozens of vacancies waiting for you! Click the link below: \r\n \r\n \r\n<a href=http://jobssat.com>Full list of newest vacancies in Belgium - Jobssat.com</a>\r\n'), ('name', u'LesterEl'), ('submit', u'Submit'), ('email', u'belgium@wegas.info')])
+[pid: 5287|app: 0|req: 9/9] 37.229.198.56 () {34 vars in 3602 bytes} [Tue Mar 15 14:15:35 2016] GET /flask/?name=LesterEl&email=belgium%40wegas.info&phone=123456&message=Jobssat.com+is+a+free+job+search+machine+focused+on+Belgium+job+market.+We+are+searching+and+collecting+newest+vacancies+in+one+place.+%0D%0A+%0D%0AHere+are+some+hot+offers+for+you.+It+is+free+and+no+registration+is+needed.+%0D%0A+%0D%0A<a+href%3Dhttp%3A%2F%2Fjobssat.com%2Fbe%2FInternship-Digital-Operations-Brussels-Nespresso.html>Internship+Digital+Operations%2C+Full+Time<%2Fa>%0D%0A<a+href%3Dhttp%3A%2F%2Fjobssat.com%2Fbe%2FBusiness-Intelligence-ETL-Developer-Brussels-EUROCLEAR.html>Business+Intelligence+ETL+Developer%2C+Full+Time<%2Fa>%0D%0A<a+href%3Dhttp%3A%2F%2Fjobssat.com%2Fbe%2FData-Scientist-Brussels-EUROCLEAR.html>Data+Scientist%2C+Full+Time<%2Fa>%0D%0A+%0D%0ANot+enough%3F+Then+just+see+our+newest+jobs+collection.+Here+are+dozens+of+vacancies+waiting+for+you%21+Click+the+link+below%3A+%0D%0A+%0D%0A+%0D%0A<a+href%3Dhttp%3A%2F%2Fjobssat.com>Full+list+of+newest+vacancies+in+Belgium+-+Jobssat.com<%2Fa>%0D%0A&submit=Submit => generated 281 bytes in 2929 msecs (HTTP/1.0 302) 3 headers in 132 bytes (1 switches on core 0)
+invalid request block size: 4527 (max 4096)...skip
+invalid request block size: 4227 (max 4096)...skip
+ImmutableMultiDict([('phone', u'123456'), ('message', u'http://kamagrabuy-jelly.org/ - Viagra Effect In Women <a href="http://buy-200mgcelebrex.net/">Celebrex No Prescription</a> http://synthroidonlinebuy.net/'), ('name', u'aiqeffiloe'), ('submit', u'Submit'), ('email', u'owepaoe@asdfasdfmail.net')])
+[pid: 5287|app: 0|req: 10/10] 91.200.12.143 () {34 vars in 1405 bytes} [Fri Apr 29 23:36:37 2016] GET /flask/?name=aiqeffiloe&email=owepaoe%40asdfasdfmail.net&phone=123456&message=http%3A%2F%2Fkamagrabuy-jelly.org%2F+-+Viagra+Effect+In+Women+<a+href%3D%22http%3A%2F%2Fbuy-200mgcelebrex.net%2F%22>Celebrex+No+Prescription<%2Fa>+http%3A%2F%2Fsynthroidonlinebuy.net%2F&submit=Submit => generated 281 bytes in 1348 msecs (HTTP/1.0 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'123456'), ('message', u'http://kamagrabuy-jelly.org/ - Kamagra En Ligne <a href="http://buy-200mgcelebrex.net/">Celebrex</a> http://synthroidonlinebuy.net/'), ('name', u'utohinip'), ('submit', u'Submit'), ('email', u'fauccd@asdfasdfmail.net')])
+[pid: 5287|app: 0|req: 11/11] 91.200.12.143 () {34 vars in 1367 bytes} [Fri Apr 29 23:55:16 2016] GET /flask/?name=utohinip&email=fauccd%40asdfasdfmail.net&phone=123456&message=http%3A%2F%2Fkamagrabuy-jelly.org%2F+-+Kamagra+En+Ligne+<a+href%3D%22http%3A%2F%2Fbuy-200mgcelebrex.net%2F%22>Celebrex<%2Fa>+http%3A%2F%2Fsynthroidonlinebuy.net%2F&submit=Submit => generated 281 bytes in 1284 msecs (HTTP/1.0 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'123456'), ('message', u'http://kamagrabuy-jelly.org/ - Kamagra Oral Jelly Canada <a href="http://buy-200mgcelebrex.net/">Celebrex Generic</a> http://synthroidonlinebuy.net/'), ('name', u'erazufaxurawo'), ('submit', u'Submit'), ('email', u'osukud@asdooeemail.com')])
+[pid: 5287|app: 0|req: 12/12] 91.200.12.7 () {34 vars in 1428 bytes} [Sat Apr 30 04:03:35 2016] GET /flask/?name=erazufaxurawo&email=osukud%40asdooeemail.com&phone=123456&message=http%3A%2F%2Fkamagrabuy-jelly.org%2F+-+Kamagra+Oral+Jelly+Canada+<a+href%3D%22http%3A%2F%2Fbuy-200mgcelebrex.net%2F%22>Celebrex+Generic<%2Fa>+http%3A%2F%2Fsynthroidonlinebuy.net%2F&submit=Submit => generated 281 bytes in 1983 msecs (HTTP/1.0 302) 3 headers in 132 bytes (1 switches on core 0)
+ImmutableMultiDict([('phone', u'123456'), ('message', u'http://kamagrabuy-jelly.org/ - Kamagra <a href="http://buy-200mgcelebrex.net/">Celebrex</a> http://synthroidonlinebuy.net/'), ('name', u'izojuam'), ('submit', u'Submit'), ('email', u'etokurki@asdooeemail.com')])
+[pid: 5287|app: 0|req: 13/13] 91.200.12.7 () {34 vars in 1338 bytes} [Sat Apr 30 04:22:46 2016] GET /flask/?name=izojuam&email=etokurki%40asdooeemail.com&phone=123456&message=http%3A%2F%2Fkamagrabuy-jelly.org%2F+-+Kamagra+<a+href%3D%22http%3A%2F%2Fbuy-200mgcelebrex.net%2F%22>Celebrex<%2Fa>+http%3A%2F%2Fsynthroidonlinebuy.net%2F&submit=Submit => generated 281 bytes in 1534 msecs (HTTP/1.0 302) 3 headers in 132 bytes (1 switches on core 0)
+[pid: 5287|app: 0|req: 14/14] 62.210.78.178 () {34 vars in 466 bytes} [Thu May  5 12:35:34 2016] GET /flask/ => generated 192 bytes in 984 msecs (HTTP/1.0 400) 2 headers in 74 bytes (1 switches on core 0)
