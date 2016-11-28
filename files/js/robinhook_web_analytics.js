@@ -7,7 +7,7 @@ var ROBINHOOK = ROBINHOOK || (function(){
 
     return {
         init : function() {
-          _robinhookLayer['robinhook.startpage.time'] = new Date().getTime();
+          _robinhookLayer['robinhook_startpage_time'] = new Date().getTime();
           _robinhookUrl = 'https://acc.robinhook.dcode.eu/unsubscribe';
           _withGoogle = false;
           console.log(JSON.stringify(_robinhookLayer));
@@ -37,12 +37,12 @@ var ROBINHOOK = ROBINHOOK || (function(){
         },
         initEvent : function() {
           var data = {};
-          data["robinhook.event.time"] = new Date().getTime();
-          data["robinhook.event.delay"] = data["robinhook.event.time"] - this.getStartPage();
+          data["robinhook_event_time"] = new Date().getTime();
+          data["robinhook_event_delay"] = data["robinhook_event_time"] - this.getStartPage();
           return data;
         },
         getStartPage : function(){
-          return _robinhookLayer['robinhook.startpage'];
+          return _robinhookLayer['robinhook_startpage'];
         }
 
     };
