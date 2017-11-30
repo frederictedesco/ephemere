@@ -3,7 +3,7 @@
 <html lang="en" style="height: auto;" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths desktop portrait x-border-box x-strict"><!--
 =======================================================================================
  Brooklyn HTML Template by United Themes (http://www.unitedthemes.com)
- Marcel Moerkens & Matthias Nettekoven 
+ Marcel Moerkens & Matthias Nettekoven
 =======================================================================================
 --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="./files/css/ut-responsive-grid.css" media="all">
     <link rel="stylesheet" href="./files/css/color.css" media="all">
     <link rel="stylesheet" href="./files/css/style.css" media="all">
-   
+
     <script src="./files/js/abaaso.min.js"></script>
     <script src="./files/js/contact.js"></script>
     <script type="text/javascript" src="./files/js/robinhook_web_analytics.js"></script>
@@ -37,11 +37,11 @@
 	</script>
 
 
- 
+
     <!--[if lt IE 9]>
 		<script src="./files/js/html5.js"></script>
 	<![endif]-->
-    
+
    <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="./files/css/ie8-and-down.css" />
 	<style>.hero .hero-holder {
@@ -49,7 +49,7 @@
 	}
 	</style>
     <![endif]-->
-    
+
     <!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="./files/css/ie.css" />
 	<![endif]-->
@@ -78,12 +78,21 @@
 </head>
 
 <body id="mainsite" class="x-body x-webkit x-chrome x-mac" style="">
-	
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.11&appId=47444222770';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
     <a id="top"></a>
-    
+
 	<!-- Page Layout
 	================================================== -->
-    
+
      <!-- header section -->
 	<header id="header-section" class="ha-header ha-header-hide">
     	<div class="grid-container">
@@ -102,17 +111,17 @@
                             <a href="#contact-section">Contact</a>
 						</nav>
 					</div>
-				</div><!-- close .ha-header-perspective --> 
-        </div><!-- close grid container -->  
+				</div><!-- close .ha-header-perspective -->
+        </div><!-- close grid container -->
     </header><!-- close header -->
-    
+
     <div class="clear"></div>
-    
+
 	<!-- hero section -->
     <section class="hero ha-waypoint parallax-section parallax-banner-1 parallax-background fixed" data-animate-up="ha-header-hide" data-animate-down="ha-header-hide" style="height: 931px; background-position: 50% 0px;">
-        <div class="parallax-overlay parallax-overlay-1"></div> 
+        <div class="parallax-overlay parallax-overlay-1"></div>
     	<div class="grid-container">
-    		
+
             <!-- hero holder -->
             <div class="hero-holder grid-70 mobile-grid-100 tablet-grid-100" style="opacity: 1;">
             	<div class="hero-inner">
@@ -120,40 +129,40 @@
                     <div class="hero-title-holder"><h1 class="hero-title" style="display: inline-block;">We are <span>Artists </span></h1></div>
                     <span class="btn-holder"><a id="to-about-section" class="hero-btn">Entrez dans notre univers</a></span>
                 </div>
-            </div><!-- close hero-holder -->    													
+            </div><!-- close hero-holder -->
     	</div>
     </section><!-- close hero section -->
-    
+
     <div class="clear"></div>
-   
+
     <div id="main-content" class="wrap">
-    
+
     <!-- about section -->
     <div class="nav-waypoint">
 	<section id="about-section" class="about-section content-section ha-waypoint" data-animate-up="ha-header-hide" data-animate-down="ha-header-small">
 		<div class="grid-container">
-        	
+
             <!-- section header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
                     <h2 class="section-title"><span>Entrez dans notre univers</span></h2>
-                    <p class="section-slogan"><strong>Du 9 décembre 2016 au 8 janvier 2017<br>Rue Pont d'Avroy 10 au centre de Liège (à droite du Forum)</strong><br>La galerie est ouverte du mercredi au samedi de 14h à 18h30 et les dimanches 11/12 - 18/12 - 8/1 ou sur rendez-vous (0478/745 347).<br><br><strong>Quatre bonnes raisons de visiter notre galerie éphémère</strong></p>
+                    <p class="section-slogan"><strong>Du 16 décembre 2017 au 6 janvier 2018<br>Rue Cathédrale 98 au centre de Liège (à gauche du magasin Hush Up)</strong><br>La galerie est ouverte du mercredi au samedi de 14h à 18h30, les dimanches d'ouverture de fin d'année ou sur rendez-vous (0478/745 347).<br><br><strong>Quatre bonnes raisons de visiter notre galerie éphémère</strong></p>
                 </header>
             </div>
             <!-- close section header -->
-            
+
             <div class="grid-50 tablet-grid-100 mobile-grid-100 about-box">
             	<!--<figure class="about-icon"><img src="images/app-development.png" alt="app-development"></figure>-->
-                
+
                 <div class="about-box">
                     <h3><strong>Tombola</strong></h3>
                     <p>Vous participerez à une tombola pour gagner une oeuvre originale.</p>
                 </div>
             </div>
-            
+
             <div class="grid-50 tablet-grid-100 mobile-grid-100 about-box">
             	<!--<figure class="about-icon"><img src="images/ui-design.png" alt="ui-design"></figure>-->
-                
+
                 <div class="about-box">
                     <h3><strong>Univers</strong></h3>
                     <p>Nous vous proposons une initiation à l’art, un parcours entre sculptures et peintures, matières et couleurs, à la découverte de l’univers de chaque artiste.</p>
@@ -172,25 +181,25 @@
 
             <div class="grid-50 tablet-grid-100 mobile-grid-100 about-box">
             	<!--<figure class="about-icon"><img src="images/brand-identity.png" alt="brand-identity"></figure>-->
-                
+
                 <div class="about-box">
                     <h3><strong>Plaisir</strong></h3>
                     <p>Vous (vous) ferez plaisir tout en soutenant les artistes de votre région, démarche des plus estimable.</p>
                 </div>
             </div>
-            
 
-            
+
+
     	</div><!-- close grid-container -->
     </section><!-- close about section -->
-            
+
     <div class="clear"></div>
-    
+
     <!-- parallax banner 2-->
      <section id="parallax-section-2" class="parallax-section parallax-banner-2 parallax-background parallax-section-2 ha-waypoint fixed">
      <div class="parallax-overlay parallax-overlay-2"></div>
 		<div class="grid-container parallax-content">
-            
+
             	<!-- parallax header -->
             	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                     <header class="parallax-header">
@@ -199,19 +208,19 @@
                     </header>
                 </div>
             	<!-- close parallax header -->
-   
+
 		</div><!-- close grid container -->
 	</section><!-- close parallax banner 2-->
-    
+
     </div><!-- close nav-waypoint -->
-    
+
     <div class="clear"></div>
-    
+
     <!-- team section -->
     <div class="nav-waypoint">
 	<section id="team-section" class="team-section content-section">
 		<div class="grid-container">
-        	
+
             <!-- section header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
@@ -220,55 +229,30 @@
                 </header>
             </div>
             <!-- close section header -->
-            
+
             <div class="clear"></div>
-            
+
             <!-- member 1 -->
-			<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-            	<figure class="member-photo"><img src="./files/cjoiris.jpg" alt="member"></figure>
-                
-                <div class="member-box">
-                    <h3>Carine Joiris</h3>
-                    <span>Peintre / Organisatrice</span>
-                </div>
-                
-			</div><!-- close member -->
-            
-            <!-- member 2 -->
-			<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-            	<figure class="member-photo"><img src="./files/valentin.jpg" alt="member"></figure>
-                
-                <div class="member-box">
-                    <h3>Valentin</h3>
-                    <span>Peintre / Organisateur</span>
-                </div>
-                
-			</div><!-- close member -->
+						<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+			            	<figure class="member-photo"><img src="./files/cjoiris.jpg" alt="member"></figure>
 
-            <!-- member 2 -->
-			<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-            	<figure class="member-photo"><img src="./files/do.png" alt="member"></figure>
+			                <div class="member-box">
+			                    <h3>Carine Joiris</h3>
+			                    <span>Peintre / Organisatrice</span>
+			                </div>
 
-                <div class="member-box">
-                    <h3>Céramik by Do</h3>
-                    <span>Céramiste</span>
-                </div>
+						</div><!-- close member -->
 
-			</div><!-- close member -->
+			            <!-- member 2 -->
+						<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+			            	<figure class="member-photo"><img src="./files/valentin.jpg" alt="member"></figure>
 
-            <!-- member 2 -->
-			<div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-            	<figure class="member-photo"><img src="./files/jh.png" alt="member"></figure>
+			                <div class="member-box">
+			                    <h3>Valentin</h3>
+			                    <span>Peintre / Organisateur</span>
+			                </div>
 
-                <div class="member-box">
-                    <h3>Jacqueline Hock</h3>
-                    <span>Créatrice de Bijoux</span>
-                </div>
-
-			</div><!-- close member -->
-
-
-
+						</div><!-- close member -->
             <!-- member 2 -->
             <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
                 <figure class="member-photo"><img src="./files/alexandre.png" alt="member"></figure>
@@ -279,56 +263,27 @@
                 </div>
 
             </div><!-- close member -->
+
             <!-- member 2 -->
             <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
                 <figure class="member-photo"><img src="./files/sb.png" alt="member"></figure>
 
                 <div class="member-box">
-                    <h3>Sandrine Bouleau</h3>
-                    <span>Sculpteur</span>
+                    <h3>Pinky Pintus</h3>
+                    <span>Travail du verre</span>
                 </div>
             </div><!-- close member -->
-            <!-- member 2 -->
-            <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-                <figure class="member-photo"><img src="./files/tp.png" alt="member"></figure>
-
-                <div class="member-box">
-                    <h3>Talullah's Planet</h3>
-                    <span>éco-artisane</span>
-                </div>
-
-            </div><!-- close member -->
-
-            <!-- member 2 -->
-            <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
-                <figure class="member-photo"><img src="./files/bm.png" alt="member"></figure>
-
-                <div class="member-box">
-                    <h3>Boris Mestchersky</h3>
-                    <span>Peintre</span>
-                </div>
-
-            </div><!-- close member -->
-
-
-
-
-
-
-
-
-
-		</div><!-- close grid-container -->  
+		</div><!-- close grid-container -->
 	</section><!-- close team section -->
-    
+
    <div class="clear"></div>
-   
+
    <!-- Counter Section -->
     <section id="counter-section" class="counter-section parallax-section parallax-banner-6 parallax-background fixed">
      	<div class="parallax-overlay parallax-overlay-6"></div>
 		<div class="grid-container parallax-content">
         	<div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
-            
+
             <!-- parallax header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="parallax-header">
@@ -337,7 +292,7 @@
                 </header>
             </div>
             <!-- close parallax header -->
- 
+
             <!-- counter box 1 -->
 			<!--<div class="grid-25 mobile-grid-100 tablet-grid-25">
             	<div class="counter-box counter" data-counter="1270">
@@ -345,7 +300,7 @@
                  	<h3 class="counter-details">Twinkies Eaten</h3>
                 </div>
 			</div>--><!-- close counter box -->
-            
+
             <!-- counter box 2 -->
 			<!--<div class="grid-25 mobile-grid-100 tablet-grid-25">
             	<div class="counter-box counter" data-counter="75">
@@ -353,7 +308,7 @@
                  	<h3 class="counter-details">Clients Worked With</h3>
                 </div>
 			</div>--><!-- close counter box -->
-            
+
             <!-- counter box 3 -->
 			<!--<div class="grid-25 mobile-grid-100 tablet-grid-25">
             	<div class="counter-box counter" data-counter="75">
@@ -361,7 +316,7 @@
                  	<h3 class="counter-details">Completed Projects</h3>
                 </div>
 			</div>--><!-- close counter box -->
-            
+
             <!-- counter box 4 -->
 			<!--<div class="grid-25 mobile-grid-100 tablet-grid-25">
             	<div class="counter-box counter" data-counter="4">
@@ -369,7 +324,7 @@
                  	<h3 class="counter-details">Winning Awards</h3>
                 </div>
 			</div>--><!-- close counter box -->
-    
+
     		</div><!-- close grid-100 -->
 		</div><!-- close grid container -->
 	</section><!-- close parallax banner 3-->
@@ -428,43 +383,6 @@
                 </a>
 			</div><!-- close portfolio -->
 
-
-            <!-- Sandrine Bouleau -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/sb1.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/sb1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Sandrine Bouleau</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
-            <!-- portfolio box 8 -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/sb2.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/sb2.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Sandrine Bouleau</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
-            <!-- portfolio box 9 -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/sb3.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/sb3.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Sandrine Bouleau</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
             <!-- portfolio box 4 -->
 			<div class="grid-33 mobile-grid-50 tablet-grid-50">
             	<a class="portfolio-popup" href="./files/images/portfolio/large/val1.jpg">
@@ -506,7 +424,7 @@
 
 
             <!-- JAI -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
+            <div class="grid-33 mobile-grid-50 tablet-grid-50">
                 <a class="portfolio-popup" href="./files/images/portfolio/large/alexandre1.jpg">
                 <div class="portfolio-box">
                 <figure class="portfolio-image"><img src="./files/alexandre1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
@@ -537,153 +455,7 @@
                 </div><!-- close portfolio caption -->
                 </div>
                 </a>
-                        </div><!-- close portfolio -->
-
-
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/bm1.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/bm1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category"></span>Boris Mestchersky</h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/bm2.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/bm2.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Boris Mestchersky</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/bm3.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/bm3.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Boris Mestchersky</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-
-
-
-
-
-            <!-- KAZAN -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/tal1.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/tp1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Talullah's Planet</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
-            <!-- portfolio box 8 -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/tal2.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/tp2.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Talullah's Planet</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
-            <!-- portfolio box 9 -->
-			<div class="grid-33 mobile-grid-50 tablet-grid-50">
-            	<a class="portfolio-popup" href="./files/images/portfolio/large/tal3.jpg">
-            	<div class="portfolio-box">
-            	<figure class="portfolio-image"><img src="./files/tp3.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Talullah's Planet</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-			</div><!-- close portfolio -->
-
-
-
-            <!-- portfolio box 7 -->
-             <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/do1.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/do1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Céramik by Do</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/do2.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/do2.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Céramik by Do</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/do3.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/do3.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Céramik by Do</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-
-
-            <!-- portfolio box 7 -->
-             <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/jh1.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/jh1.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Jacqueline Hock</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/jh2.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/jh2.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Jacqueline Hock</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
-            <!-- portfolio box 7 -->
-                        <div class="grid-33 mobile-grid-50 tablet-grid-50">
-                <a class="portfolio-popup" href="./files/images/portfolio/large/jh3.jpg">
-                <div class="portfolio-box">
-                <figure class="portfolio-image"><img src="./files/jh3.jpg" alt="portfolio image"></figure><!-- close portfolio image -->
-                <div class="portfolio-caption">
-                    <h3 class="portfolio-title"><span class="portfolio-category">Jacqueline Hock</span></h3>
-                </div><!-- close portfolio caption -->
-                </div>
-                </a>
-                        </div><!-- close portfolio -->
+              </div><!-- close portfolio -->
 
 		</div><!-- close grid-container -->
 	</section><!-- close portfolio section -->
@@ -692,23 +464,23 @@
 
     <!-- cta section -->
     <!--<section id="cta-section" class="cta-section content-section">
-    	<div class="grid-container">    
-        	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">            
+    	<div class="grid-container">
+        	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
             	<span class="cta-btn cl-effect-18"><a href="#contact-section" class="cl-effect-18">Drop us a line</a></span>
-            </div>            
-    	</div> 
+            </div>
+    	</div>
     </section>--><!-- close cta section -->
     </div><!-- close nav-waypoint -->
-         
-    <div class="clear"></div>    
-    
+
+    <div class="clear"></div>
+
     <!-- service section -->
     <div class="nav-waypoint">
      <section id="parallax-section-3" class="parallax-section parallax-banner-3 parallax-background service-section fixed">
      <div class="parallax-overlay parallax-overlay-3"></div>
 		<div class="grid-container parallax-content">
         	<div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
-            
+
             <!-- entry header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
             <header class="parallax-header">
@@ -717,48 +489,48 @@
             </header>
             </div>
             <!-- close entry header -->
- 
+
             <!-- icon box 1 -->
 			<!--<div class="grid-33 mobile-grid-100 tablet-grid-100">
             	<div class="box-fade icon-box">
             	<div class="arrow-right"></div>
 				<i class="icon-time icon-4x service-icon"></i>
                 </div>
-                <div class="box-fade info"> 
+                <div class="box-fade info">
                 <h3>Consulting</h3>
 				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                </div>
 			</div>--><!-- close icon box -->
-            
+
             <!-- icon box 2 -->
 			<!--<div class="grid-33 mobile-grid-100 tablet-grid-100">
             	<div class="box-fade icon-box">
             	<div class="arrow-right"></div>
                 <i class="icon-globe icon-4x service-icon"></i>
                 </div>
-                <div class="box-fade info"> 
+                <div class="box-fade info">
                 <h3>Systems Integration</h3>
 				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                </div>
-              
+
 			</div>--><!-- close icon box -->
-            
+
             <!-- icon box 3 -->
 			<!--<div class="grid-33 mobile-grid-100 tablet-grid-100">
                 <div class="box-fade icon-box">
             	<div class="arrow-right"></div>
 				<i class="icon-umbrella icon-4x service-icon"></i>
                 </div>
-                <div class="box-fade info"> 
+                <div class="box-fade info">
                 <h3>Support</h3>
 				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                </div>
 			</div>--><!-- close icon box -->
-    
+
     </div><!-- close grid-100 -->
 		</div><!-- close grid container -->
 	</section><!-- close service section -->
-    
+
     </div><!-- close nav-waypoint -->
 
     <div class="clear"></div>
@@ -838,7 +610,7 @@
      <div class="parallax-overlay parallax-overlay-4"></div><!-- parallax overlay -->
 		<div class="grid-container parallax-content">
         	<div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
-            
+
             	<!-- parallax header -->
             	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                     <header class="parallax-header">
@@ -847,20 +619,20 @@
                     </header>
                 </div>
             	<!-- close parallax header -->
-    	
+
       		</div><!-- close grid-100 -->
 		</div><!-- close grid container -->
 	</section><!-- close social section -->
     </div><!-- close nav-waypoint -->
-    
+
     <div class="clear"></div>
-    
+
     <!-- testimonial section -->
     <div class="nav-waypoint">
 	<section id="testimonial-section" class="testimonial-section content-section">
-    	
+
 		<div class="grid-container">
-        
+
         <!-- section header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
@@ -887,19 +659,19 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
             </div>
             <!-- close section header -->
 
-            
+
 		</div><!-- close container -->
 	</section><!-- close testimonial section -->
-     
+
     <div class="clear"></div>
-    
+
     <!-- client section -->
 	<section id="client-section" class="client-section content-section">
-    	
+
 		<div class="grid-container">
-        
+
         <div class="client-holder grid-parent grid-100 tablet-grid-100 mobile-grid-100">
-        
+
         <!-- client box -->
         <div class="grid-20 tablet-grid-20 mobile-grid-50">
         	<div class="client-logo">
@@ -928,50 +700,50 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
 
 
             <!-- close client box -->
-        
+
          <!-- client box -->
         <!--<div class="grid-20 tablet-grid-20 mobile-grid-50">
         	<div class="client-logo">
             	<a href="#"><img src="images/logo2.png" alt="client logo"></a>
             </div>
         </div>--><!-- close client box -->
-        
+
          <!-- client box -->
         <!--<div class="grid-20 tablet-grid-20 mobile-grid-50">
         	<div class="client-logo">
             	<a href="#"><img src="images/logo3.png" alt="client logo"></a>
             </div>
         </div>--><!-- close client box -->
-        
+
          <!-- client box -->
         <!--<div class="grid-20 tablet-grid-20 mobile-grid-50">
         	<div class="client-logo">
             	<a href="#"><img src="images/logo4.png" alt="client logo"></a>
             </div>
         </div>--><!-- close client box -->
-        
+
          <!-- client box -->
         <!--<div class="grid-20 tablet-grid-20 mobile-grid-50">
         	<div class="client-logo">
             	<a href="#"><img src="images/logo5.png" alt="client logo"></a>
             </div>
         </div>--><!-- close client box -->
-        
-        </div><!-- close client-holder -->		
-            
+
+        </div><!-- close client-holder -->
+
 		</div><!-- close container -->
 	</section><!-- close client section -->
-    
+
     </div><!-- close nav-waypoint -->
-    
+
     <div class="clear"></div>
-    
+
      <!-- contact section -->
      <div class="nav-waypoint">
      <section id="contact-section" class="contact-section parallax-section parallax-banner-5 parallax-background fixed">
      <div class="parallax-overlay parallax-overlay-5"></div><!-- parallax overlay -->
 		<div class="grid-container parallax-content">
-        
+
             	<!-- parallax header -->
             	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                     <header class="parallax-header">
@@ -980,59 +752,41 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
                     </header>
                 </div>
             	<!-- close parallax header -->
-            
+
             <div class="clear"></div>
-            
+
             <!-- contact wrap -->
             <div class="grid-100 mobile-grid-100 tablet-grid-100">
         	<div class="contact-wrap">
-            
-            
+
+
             <!-- contact message -->
             <div class="grid-parent grid-40 suffix-5 mobile-grid-100 tablet-grid-100">
             <div class="contact-message">
             <h3 class="grid-100">Notre Adresse</h3>
             	<ul class="icons-ul">
-                	<li><i class="icon-li icon-home"></i>rue Pont d'Avroy 10 au centre de Liège (à droite du Forum)</li>
+                	<li><i class="icon-li icon-home"></i>Rue Cathédrale 98 au centre de Liège (à gauche du magasin Hush Up)</li>
                     <li><i class="icon-li icon-phone"></i>+32(0)478745347</li>
                     <li><i class="icon-li icon-envelope-alt"></i><a href="mailto:contact@galerie-ephemere-liege.be">contact@galerie-ephemere-liege.be</a></li>
                     <!-- <li><i class="icon-li icon-globe"></i>www.galerie-ephemere-liege.be</li>  -->
                 </ul>
             </div>
             </div><!-- close contact message -->
-            
-            <!-- contact form -->
-            <div class="grid-parent grid-55 mobile-grid-100 tablet-grid-100">
-            <div class="contact-form-holder clearfix">
-          	
-            
-            <h3 class="grid-100">Laissez nous un message</h3>
-            
-            <!-- contact form -->
-            <form  class="contact-form">
-            	<ul class="grid-50">
-                	<li><input id="name" class="name" type="text" name="name" placeholder="Name:"></li>
-                    <li><input id="email" class="email" type="email" name="email" placeholder="E-Mail:"></li>
-                    <li><input id="phone" class="phone" type="text" name="phone" placeholder="Phone:"></li>
-            	</ul>
-                <ul class="grid-50">
-                    <li><textarea id="message" class="message" name="message" placeholder="Message:"></textarea></li>
-                </ul>
-                <div class="grid-100">    
-                    <input  class="send-btn" type="button"  onclick="postContact()" value="Submit">
-                    <div class="success-message">Vos données ont été sauvegardées!</div>
-                    <div class="alert-message"></div>
-                    <div class="error-message">Email could not be delivered. Please try again later!</div>
-                </div>   
-              </form><!-- close contact form -->
-                    
-            </div>
-            </div><!-- close contact-form-holder -->
-            
+
+						<div class="grid-parent grid-40 suffix-5 mobile-grid-100 tablet-grid-100">
+							<!-- Your like button code -->
+
+							<div class="contact-message">
+								<h3 class="grid-100">Nous suivre</h3>
+								<div class="fb-like" data-href="https://www.facebook.com/galerieephemereliege/"
+								data-layout="standard" data-action="like" data-size="large"
+								data-show-faces="true" data-share="true"></div>
+							</div>
+						</div>
             </div>
             </div><!-- close contact wrap -->
-            
-            
+
+
 		</div><!-- close container -->
          <!--<br/><br/>-->
          <div class="clear"></div>
@@ -1079,11 +833,11 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
 
 
 	</section><!-- close contact section -->
-    
+
 	</div><!-- close nav-waypoint -->
-    
+
     <div class="clear"></div>
-    
+
 	<!-- Footer Section -->
 	<!--<footer class="footer">
     <a href="#top" class="toTop"><i class="icon-angle-up"></i></a>
@@ -1110,7 +864,7 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
 
 
     <!-- Load Javascript
-  	================================================== -->    
+  	================================================== -->
 	<script src="./files/jquery.mb.YTPlayer.js"></script>
     <script src="./files/jquery.flexslider-min.js"></script>
     <script src="./files/jquery.parallax.min.js"></script>
@@ -1118,7 +872,7 @@ Ce présent ravira aussi tous les participants pour sa valeur d'investissement, 
 	<script src="./files/waypoints.min.js"></script>
 	<script src="./files/jquery.magnific-popup.min.js"></script>
    	<script src="./files/jquery.custom.js"></script>
-    
+
 <!-- End Document
 ================================================== -->
 
